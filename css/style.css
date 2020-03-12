@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topo {
+    top: 0;
+    width: 100%;
+    height: 940px;
+}
+
+.img-bg {
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 100%;
+}
+
+.nav-bar img{
+    position: relative;
+    top: 24px;
+    left: 39px;
+    width: 311px;
+    height: 106px;
+    opacity: 1;
+}
+
+.nav-bar ul {
+    margin: 50px 20px 0px 0px;
+    position: relative;
+    float: right;
+}
+
+.nav-bar li {
+    opacity: 1;
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 1s;
+}
+
+.nav-bar li a:hover {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.rodape {
+    width: 100%;
+    height: 429px;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #CFEAFF 29%, #97D2FF 100%) 0% 0% no-repeat padding-box;
+}
+
+.rodape p {
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 8em;
+}
+
+.rodape img {
+    position: relative;
+    left: 40%;
+    top: 14em;
+}
