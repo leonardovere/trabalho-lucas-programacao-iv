@@ -1,0 +1,23 @@
+.header-sobre {
+    width: 100%;
+    height: 700px;
+    background-image: url('../imagens/Background/background-sobre.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cards {
+    text-align: center;
+    position: relative;
+    padding-top: 200px;
+    width: 1300px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre-li {
+    font-weight: 600;
+    font-size: 30pt;
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+}
