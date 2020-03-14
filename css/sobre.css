@@ -8,35 +8,63 @@
 
 .cards {
     text-align: center;
+    font: Bold 100px/133px Segoe UI;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 10px #000000A3;
+    opacity: 1;
+}
+
+.img-sobre {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+
+.img-conteudo {
+    width: 250px;
+    height: 250px;
+}
+
+#texto {
+    width: 625px;
+    text-align: justify;
+    font-size: 32px;
     position: relative;
-    padding-top: 200px;
-    width: 1300px;
-    margin: 0 15px 15px 0;
+    float: right;
+
 }
 
-.sobre-li {
-    font-weight: 600;
-    font-size: 30pt;
-    text-align: center;
-    width: 940px;
-    margin: 0 auto;
-}
-.sobre-ul {
-    width: 940px;
-    margin: 0px auto;
-    padding: 50px 0;
+#texto2 {
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 32px;
+    position: relative;
+
 }
 
-.sobre-ul li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #000000;
-    border-radius: 15px;
+#texto3 {
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 32px;
+    position: relative;
+
 }
+
+.img-conteudo-2 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    float: right;
+    margin-left: 15px;
+}
+
+
+
