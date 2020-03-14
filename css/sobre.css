@@ -39,7 +39,6 @@
     font-size: 32px;
     position: relative;
     float: right;
-
 }
 
 #texto2 {
@@ -47,7 +46,6 @@
     text-align: justify;
     font-size: 32px;
     position: relative;
-
 }
 
 #texto3 {
@@ -55,7 +53,13 @@
     text-align: justify;
     font-size: 32px;
     position: relative;
+}
 
+#texto4 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
 }
 
 .img-conteudo-2 {
@@ -66,5 +70,17 @@
     margin-left: 15px;
 }
 
+.coluna {
+    float: left;
+    width: 33.33%;
+    margin-top: 50px;
+    
+}
+.linha::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+}
 
 
