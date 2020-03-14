@@ -22,18 +22,6 @@
     background-size: cover;
 }
 
-.card {
-    padding-top: 180px;
-    margin: 0 auto;
-}
-
-.card h1{
-    text-align: center;
-    font: Bold 100px Segoe UI;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 10px #000000A3;
-}
-
 .img-bg {
     width: 100%;
     height: auto;
